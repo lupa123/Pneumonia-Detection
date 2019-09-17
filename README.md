@@ -20,6 +20,20 @@ They see the potential for ML to automate initial detection (imaging screening) 
 So, can we take advantage of the existence of this model for a custom image classification task like the present one? Well, the concept has a name: Transfer learning. It may not be as efficient as a full training from scratch, but is surprisingly effective for many applications. It allows model creation with significantly reduced training data and time by modifying existing rich deep learning models.
 
 
-
-
+# Resume the project
+  I built an image classifier on the pneumonia dataset from Kaggle https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
+  using Tensorflow+Keras.
+  I took database from Kaggle https://www.kaggle.com/c/rsna-pneumonia-detection-challenge using Kaggle api.
+  I created different visualization of the data using the matplotlib library.
+  I prepared datasets for training , validating and testing.
+  I took InecptionV3 arhitecture and prepared weights . 
+  I replaced output layer with another layer specific for my problem.( with 2 classes instead of 1000).
+  I trained the model using Adam optimizer and categorical_crossentropy loss.
+  I evaluated the model using accuracy and f1 score specific for this type of diagnosis.
+  I showed some prediction on my model. 
+  
+ # Installation 
+  Clone the repo https://github.com/lupa123/Pneumonia-Detection or open with colab.
+  Download the kaggle dataset with kaggle api. You can see documentation here https://www.kaggle.com/docs/api. 
+  I uploaded a Jupyter notebook hosted in Colaboratory and an image used for readme.
 
