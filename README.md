@@ -23,13 +23,21 @@ So, can we take advantage of the existence of this model for a custom image clas
 # Resume the project
   I built an image classifier on the pneumonia dataset from Kaggle https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
   using Tensorflow+Keras.
+  
   I took database from Kaggle https://www.kaggle.com/c/rsna-pneumonia-detection-challenge using Kaggle api.
+  
   I created different visualization of the data using the matplotlib library.
+  
   I prepared datasets for training , validating and testing.
+  
   I took InecptionV3 arhitecture and prepared weights . 
+  
   I replaced output layer with another layer specific for my problem.( with 2 classes instead of 1000).
+  
   I trained the model using Adam optimizer and categorical_crossentropy loss.
+  
   I evaluated the model using accuracy and f1 score specific for this type of diagnosis.
+  
   I showed some prediction on my model. 
   
  # Installation 
